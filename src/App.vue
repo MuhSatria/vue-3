@@ -4,9 +4,18 @@
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
     </div>
-    <router-view/>
+    <home></home>
   </div>
 </template>
+<script>
+import Home from '../src/components/Home'
+export default {
+  components: {
+    Home
+  }
+  
+}
+</script>
 
 <style lang="scss">
 #app {
